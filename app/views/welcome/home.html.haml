@@ -1,0 +1,76 @@
+%nav.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{:type => "button", :"data-toggle" => "collapse", :"data-target" => "#bs-example-navbar-collapse-1"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href:"#"}My Bootstrap Site
+    .collapse.navbar-collapse#bs-example-navbar-collapse-1
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a{href:"#"} Joe Example
+
+.container
+  .alert.alert-success This is some alert message
+
+  .page-header
+    %h1 A subtitle
+
+  %ul.nav.nav-tabs
+    %li.active
+      %a{href:"#"} Home
+    %li
+      %a{href:"#"} Profile
+    %li
+      %a{href:"#"} Messages
+
+  %br
+  %br
+
+  %ol.breadcrumb
+    %li
+      %a{href:"#"} Home
+      %a{href:"#"} Categories
+      %a{href:"#"} Shoes
+      %a{href:"#"} Loafers
+
+
+  .jumbotron
+    %h1 This is some title
+    %p And this is some lead text
+
+  .panel.panel-default
+    .panel-heading
+      %h3.panel-title Some panel
+    .panel-body This is some text
+
+  .row
+    .col-md-6 This is some text that is in a column, and should only take up half the space. It should be inside a row div.
+    .col-md-6 This is some text that is in a column, and should only take up half the space. It should be inside a row div.
+
+  %br
+  %br
+
+  .well This is in a well.
+
+  .row
+    .col-md-4.text-right This is some text that is in a column, and should only take up 1/3 of the space. It should be inside a row div.
+    .col-md-4.text-center This is some text that is in a column, and should only take up 1/3 of the space. It should be inside a row div.
+    .col-md-4.text-left This is some text that is in a column, and should only take up 1/3 of the space. It should be inside a row div.
+
+  %br
+  %br
+
+  %table.table.table-bordered.table-striped
+    %tr
+      %th Name
+      %th Age
+    %tr
+      %td Joe Example
+      %td 34
+    %tr
+      %td Sue Example
+      %td 27
+
